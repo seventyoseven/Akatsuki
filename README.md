@@ -43,7 +43,7 @@
 
 ## What This Project Is
 
-Orbital Shield places you in the role of a Space Security Operations Center analyst. You monitor a fictional satellite network, respond to escalating cybersecurity incidents, and learn the defensive strategies that real space agencies and satellite operators use to protect critical infrastructure — all in a browser, with no installation beyond the dev server, and no external data required.
+Akatuki places you in the role of a Space Security Operations Center analyst. You monitor a fictional satellite network, respond to escalating cybersecurity incidents, and learn the defensive strategies that real space agencies and satellite operators use to protect critical infrastructure — all in a browser, with no installation beyond the dev server, and no external data required.
 
 The application simulates ten distinct attack scenarios. Each one is broken into investigation stages: Detection, Investigation, Containment, Recovery, and Lessons Learned. At every stage you are given a set of decisions to make. The choices you make determine your score and shape the narrative of the incident. After each scenario, the application generates a full incident report breaking down your decisions against the optimal responses, explaining the underlying concepts, and summarizing what real organizations do to defend against the same class of attack.
 
@@ -69,7 +69,7 @@ This project was built with several audiences in mind, and they are all legitima
 
 ## Design Philosophy
 
-Orbital Shield's visual identity is original. The interface draws inspiration from the design philosophy of Persona 5 — its energy, its confidence, the way it makes every state transition feel like an event rather than a page load — but no assets, typography, or artwork from the game appear anywhere in this codebase. The goal was to capture the same sense of purpose and intentionality in a UI that is legitimately functional.
+Akatuki's visual identity is original. The interface draws inspiration from the design philosophy of Persona 5 — its energy, its confidence, the way it makes every state transition feel like an event rather than a page load — but no assets, typography, or artwork from the game appear anywhere in this codebase. The goal was to capture the same sense of purpose and intentionality in a UI that is legitimately functional.
 
 The design operates on a small set of principles that are applied consistently.
 
@@ -153,7 +153,7 @@ The stack was chosen to be appropriate for the complexity of each subsystem, not
 
 ## Application Architecture
 
-Orbital Shield uses a feature-based architecture. Each major feature — dashboard, globe, scenarios, reports — owns its own pages, local components, and any feature-specific hooks. Shared design primitives live in `src/components/`. The simulation engine is a pure TypeScript module with no React dependencies, making it independently testable and fully portable.
+Akatuki uses a feature-based architecture. Each major feature — dashboard, globe, scenarios, reports — owns its own pages, local components, and any feature-specific hooks. Shared design primitives live in `src/components/`. The simulation engine is a pure TypeScript module with no React dependencies, making it independently testable and fully portable.
 
 ```
                         React Router v6
@@ -1466,7 +1466,7 @@ To run your first simulation: navigate to Scenarios in the left sidebar, select 
 
 ## Environment Variables
 
-Orbital Shield has no required environment variables. The entire application runs locally with no external API dependencies.
+Akatuki has no required environment variables. The entire application runs locally with no external API dependencies.
 
 The following optional variables are available for development:
 
