@@ -1,22 +1,7 @@
-# Orbital Shield
+# Project Akatsuki
 
 **An Educational Space Cybersecurity Attack Simulator**
 
-```
- ██████╗ ██████╗ ██████╗ ██╗████████╗ █████╗ ██╗
-██╔═══██╗██╔══██╗██╔══██╗██║╚══██╔══╝██╔══██╗██║
-██║   ██║██████╔╝██████╔╝██║   ██║   ███████║██║
-██║   ██║██╔══██╗██╔══██╗██║   ██║   ██╔══██║██║
-╚██████╔╝██║  ██║██████╔╝██║   ██║   ██║  ██║███████╗
- ╚═════╝ ╚═╝  ╚═╝╚═════╝ ╚═╝   ╚═╝   ╚═╝  ╚═╝╚══════╝
-
-███████╗██╗  ██╗██╗███████╗██╗     ██████╗
-██╔════╝██║  ██║██║██╔════╝██║     ██╔══██╗
-███████╗███████║██║█████╗  ██║     ██║  ██║
-╚════██║██╔══██║██║██╔══╝  ██║     ██║  ██║
-███████║██║  ██║██║███████╗███████╗██████╔╝
-╚══════╝╚═╝  ╚═╝╚═╝╚══════╝╚══════╝╚═════╝
-```
 
 ![Version](https://img.shields.io/badge/version-2.1.0-FF2D55?style=flat-square)
 ![Status](https://img.shields.io/badge/status-in_development-00F5D4?style=flat-square)
@@ -27,7 +12,7 @@
 
 ---
 
-> **Important:** Orbital Shield is a purely educational, locally-simulated cybersecurity training platform. It performs no real attacks, makes no external network calls of any kind, and has zero interaction with actual satellites, radio frequencies, ground infrastructure, or any external system. Every scenario, satellite, alert, and piece of telemetry in this application is entirely fictional. The sole purpose of this project is to make space cybersecurity concepts tangible and learnable through interactive simulation.
+> **Important:** Akatsuki is a purely educational, locally-simulated cybersecurity training platform. It performs no real attacks, makes no external network calls of any kind, and has zero interaction with actual satellites, radio frequencies, ground infrastructure, or any external system. Every scenario, satellite, alert, and piece of telemetry in this application is entirely fictional. The sole purpose of this project is to make space cybersecurity concepts tangible and learnable through interactive simulation.
 
 ---
 
